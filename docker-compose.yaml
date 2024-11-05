@@ -8,7 +8,7 @@ services:
       - mongo:/data
     environment:
       - MONGO_INITDB_ROOT_USERNAME=soduh
-      - MONGO_INITBD_ROOT_PASSWORD=soduh
+      - MONGO_INITDB_ROOT_PASSWORD=soduh
   mongo-express:
     image: mongo-express
     container_name: mongo_express
